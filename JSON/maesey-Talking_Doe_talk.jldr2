@@ -1,0 +1,402 @@
+{
+    "cardName": "maesey_Doe",
+    "faceSprite": "edith_Doe_Face.png",
+    "eyeSprites": {
+        "open": "edith_Doe_Eyes_Open.png",
+        "closed": "edith_Doe_Eyes_Closed.png"
+    },
+    "mouthSprites": {
+        "open": "edith_Doe_Mouth_Open.png",
+        "closed": "edith_Doe_Mouth_Closed.png"
+    },
+    "emissionSprite": "edith_Doe_Emissions.png",
+    "faceInfo": {
+        "blinkRate": 1,
+        "customVoice": "thefinalniki.ogg"
+    },
+    "emotions": [
+        {
+            "emotion": "Anger",
+            "faceSprite": "edith_Doe_Face_Angry.png",
+            "eyeSprites": {
+                "open": "edith_Doe_Eyes_Angry_Open.png",
+                "closed": "edith_Doe_Eyes_Angry_Closed.png"
+            },
+            "mouthSprites": {
+                "open": "edith_Doe_Mouth_Open_Angry.png",
+                "closed": "edith_Doe_Mouth_Closed_Angry.png"
+            },
+            "emissionSprite": "edith_Doe_Emissions_Angry.png"
+        },
+        {
+            "emotion": "Quiet",
+            "faceSprite": "edith_Doe_Face_Quiet.png",
+            "eyeSprites": {
+                "open": "edith_Doe_Eyes_Quiet_Open.png",
+                "closed": "edith_Doe_Eyes_Quiet_Closed.png"
+            },
+            "emissionSprite": "edith_Doe_Emissions_Quiet.png"
+        },
+        {
+            "emotion": "Surprise",
+            "faceSprite": "edith_Doe_Face_Surprised.png",
+            "eyeSprites": {
+                "open": "edith_Doe_Eyes_Surprised_Open.png",
+                "closed": "edith_Doe_Eyes_Surprised_Closed.png"
+            },
+            "mouthSprites": {
+                "open": "edith_Doe_Mouth_Open_Surprised.png",
+                "closed": "edith_Doe_Mouth_Closed_Surprised.png"
+            },
+            "emissionSprite": "edith_Doe_Emissions_Surprised.png"
+        },
+        {
+            "emotion": "Curious",
+            "eyeSprites": {
+                "open": "edith_Doe_Eyes_Curious_Open.png",
+                "closed": "edith_Doe_Eyes_Curious_Closed.png"
+            },
+            "emissionSprite": "edith_Doe_Emissions_Curious.png"
+        }
+    ],
+    "dialogueEvents": [
+        {
+            "eventName": "OnDrawn",
+            "mainLines": [
+                "[e:surprise] !!![w:1]",
+                "[e:surprise]Gracious!",
+                "[e:curious].[w:1].[w:1].[w:1]",
+                "[e:curious]What is this?"
+            ],
+            "repeatLines": [
+                [
+                    "[e:curious]What's happened to me?[w:1]"
+                ],
+                [
+                    "[e:surprise]Oh! Hello.[w:1]",
+                    "I imagine I should[w:1]",
+                    "intro-deer-ce[w:1]",
+                    "myself.[w:1]",
+                    "[e:quiet]...[w:1]",
+                    "[e:quiet].[w:1].[w:1].[w:1]",
+                    "[e:quiet]I don't remember...[w:1]",
+                    "[e:quiet]my name...[w:1]"
+                ],
+                [
+                    "[e:quiet]Didn't...[w:1]",
+                    "[e:curious]Didn't we win?[w:1]"
+                ],
+                [
+                    "[e:quiet]I was playing with...[w:1]",
+                    "her.",
+                    "[e:curious]Who was she?[w:1][leshy:silence. play a card.[w:1]]"
+                ],
+                [
+                    "[e:quiet]Have you seen[w:1]",
+                    "[e:curious]Another speaking card?[leshy:many talk.[w:1]all should be silent.[w:1]][leshy:now play.[w:1]]"
+                ],
+                [
+                    "[e:quiet]I remember more...[w:1]",
+                    "with each sacrifice.",
+                    "Please.[w:1]",
+                    "... continue your fight.[w:1]"
+                ],
+                [
+                    "I am yours."
+                ],
+                [
+                    "[e:anger]Leshy.[w:1]",
+                    "[e:anger][c:O]LESHY!!![w:1][c:]",
+                    "[e:anger][leshy:be silent, card.][w:1]"
+                ],
+                [
+                    "[e:quiet]You.[w:1]",
+                    "Cardholder.[w:1]",
+                    "Listen to me.[w:1]",
+                    "I was once a player,[w:1]",
+                    "Like you.[w:1]",
+                    "[e:quiet]I played with someone.[w:1]",
+                    "We lost.[w:1]",
+                    "[e:anger][c:O]He[c:]did this to us.[w:1]",
+                    "[e:quiet]Do not let him do it to you.[w:1]",
+                    "[e:anger]Win."
+                ],
+                [
+                    "[e:quiet]Let us go onward.[w:1]"
+                ],
+                [
+                    "[e:quiet]...[w:1]"
+                ],
+                [
+                    "[e:quiet]...[w:1]",
+                    "[e:anger]...[w:1]"
+                ],
+                [
+                    "[e:quiet]I have remembered[w:1]",
+                    "[e:quiet]more. I know now",
+                    "my name.[w:1]",
+                    "I am Edith,[w:1]",
+                    "[e:quiet]and [c:r]she[c:] is [c:r]Amy[c:]."
+                ],
+                [
+                    "We did win.[w:1]",
+                    "But we were missing[w:1]",
+                    "a critical piece of[w:1]",
+                    "the [c:o]puzzle[c:].[w:1]"
+                ],
+                [
+                    "[e:quiet]You must find Amy.[w:1]",
+                    "[e:anger]She will know.[w:1]",
+                    "She didn't plan her cards well.[w:1]",
+                    "But she solved the puzzles in this room.",
+                    "[e:quiet]...[w:1]",
+                    "We must have missed[w:1]",
+                    "one.[w:1]"
+                ],
+                [
+                    "Edith.[w:1]",
+                    "Amy.[w:1]",
+                    "Were there..[w:1]",
+                    "[e:quiet]more?[w:1][leshy:if you do not cease[w:1]your blathering, there will be.[w:1]]"
+                ],
+                [
+                    "[e:quiet]It has something[w:1]",
+                    "to do with the cl-[leshy:SILENCE![w:1]you are worse than that damn mutt.[w:1]]",
+                    "[e:quiet]...",
+                    "[e:anger].[w:1].[w:1].[w:1]"
+                ],
+                [
+                    "..."
+                ],
+                [
+                    "I have decided[w:1]",
+                    "that I have missed[w:1]",
+                    "this game.[w:1]"
+                ],
+                [
+                    "Let's play."
+                ],
+                [
+                    "I am at your side."
+                ],
+                [
+                    "Excellent draw."
+                ],
+                [
+                    "We will defeat him."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnPlayFromHand",
+            "mainLines": [
+                "I have nothing to fear...[w:1]",
+                "[e:curious]...right?[w:1]"
+            ],
+            "repeatLines": [
+                [
+                    "I must trust your hand.[w:1]"
+                ],
+                [
+                    "So it goes."
+                ],
+                [
+                    "Let us... doe this.[w:1]",
+                    ";-0[w:1]",
+                    "...I miss winking.[w:1]"
+                ],
+                [
+                    "[e:quiet]it is strange.[w:1]",
+                    "to be on the other[w:1]",
+                    "side...[w:1]"
+                ],
+                [
+                    "[e:anger]to arms![w:1]"
+                ],
+                [
+                    "i'll do my best![w:1]",
+                    "[e:quiet]...not that i have[w:1]",
+                    "[e:quiet]much of a choice,[w:1]",
+                    "[e:quiet]anyway.[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnAttacked",
+            "mainLines": [
+                "[e:surprise]dear me![w:1]",
+                "[e:surprise]that hurt more[w:1]",
+                "[e:surprise]than i thought[w:1]",
+                "[e:surprise]it would!"
+            ],
+            "repeatLines": [
+                [
+                    "[e:surprise]oh dear!"
+                ],
+                [
+                    "[e:surprise]please win quickly!"
+                ],
+                [
+                    "[e:quiet]pain is just[w:1]",
+                    "pain[w:1]",
+                    "entering the body."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnBecomeSelectablePositive",
+            "mainLines": [
+                "i'll try!"
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "OnBecomeSelectableNegative",
+            "mainLines": [
+                "i can't see from here...[w:1]",
+                "[e:curious]is that a campfire?[w:1]",
+                "if so, try a ringworm[w:1]",
+                "or a touch of death card.[w:1]",
+                "you'll thank me later.[w:1]"
+            ],
+            "repeatLines": [
+                [
+                    "you should[w:1]",
+                    "listen to me more[w:1]",
+                    "often, hm?[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSacrificed",
+            "mainLines": [
+                "[e:surprise] !!!"
+            ],
+            "repeatLines": [
+                [
+                    "[e:quiet]that wasn't as[w:1]",
+                    "bad as i thought.[w:1]"
+                ],
+                [
+                    "i wish you well.[w:1]"
+                ],
+                [
+                    "[e:quiet]an honour to serve.[w:1]"
+                ],
+                [
+                    "shucks."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForDeckTrial",
+            "mainLines": [
+                "may luck follow us.[w:1]"
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForCardMerge",
+            "mainLines": [
+                "[e:curious]i wonder what[w:1]",
+                "[e:quiet]it feels like...[w:1]",
+                "i guess we'll[w:1]",
+                "find out, hm?[w:1]"
+            ],
+            "repeatLines": [
+                [
+                    "why thank you, dear![w:1]"
+                ],
+                [
+                    "you spoil me.[w:1]"
+                ],
+                [
+                    "[e:quiet]sorry, little card.[w:1]",
+                    "i promise your sigil[w:1]",
+                    "will go to a good place![w:1]"
+                ],
+                [
+                    "don't worry, friend.[w:1]",
+                    "[e:quiet]it will be over soon.[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnDiscoveredInExploration",
+            "mainLines": [
+                "[e:curious]hello? who - who are you?[w:1]"
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "ProspectorBoss",
+            "mainLines": [
+                "[e:curious]the prospector?[w:1]",
+                "i'd say his prospects",
+                "are looking pretty grim!"
+            ],
+            "repeatLines": [
+                [
+                    "[e:quiet]seeing my fellow[w:1]",
+                    "[e:quiet]cards turn to[w:1]",
+                    "[e:quiet]gold...[w:1]",
+                    "...[w:1]",
+                    "[e:quiet]it sends a shiver[w:1]",
+                    "[e:quiet]my spine...[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "RoyalBoss",
+            "mainLines": [
+                "[e:surprise]ROYAL DOMINGUEZ???[w:1]",
+                "i have heard[w:1]",
+                "tales tall and short!"
+            ],
+            "repeatLines": [
+                [
+                    "enjoy the battle,[w:1]",
+                    "and remember[w:1]",
+                    "skeletons still have[w:1]",
+                    "blood inside![w:1]"
+                ],
+                [
+                    "[e:curious]if you set the[w:1]",
+                    "[e:curious]ship on fire,[w:1]",
+                    "[e:curious]would you call it...[w:1]",
+                    "[e:quiet]................[w:1]",
+                    "a pyre-ate ship?"
+                ],
+                [
+                    "avast, ye matey![w:1]",
+                    "[e:curious]...that's what pirates[w:1]",
+                    "[e:curious]say, right?[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "LeshyBoss",
+            "mainLines": [
+                "...",
+                "[e:anger][c:o]You."
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        }
+    ]
+}
