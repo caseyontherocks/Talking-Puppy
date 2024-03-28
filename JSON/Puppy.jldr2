@@ -1,0 +1,16 @@
+{
+  "name": "caseyontherocks_Puppy",
+  "modPrefix": "caseyontherocks",
+  "displayedName": "Puppy",
+  "description": "... this is supposed to be hanging by the door.",
+  "metaCategories": [ "ChoiceNode", "TraderOffer" ],
+  "cardComplexity": "Vanilla",
+  "temple": "Nature",
+  "baseAttack": 2,
+  "baseHealth": 1,
+  "bloodCost": 1,
+  "tribes": [ "Canine" ],
+  "specialAbilities": [ "TalkingCardChooser" ],
+  "flipPortraitForStrafe": false,
+  "tailName": "Tail_Furry",
+}

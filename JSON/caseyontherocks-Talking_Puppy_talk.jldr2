@@ -1,0 +1,478 @@
+{
+    "cardName": "caseyontherocks_Puppy",
+    "faceSprite": "amy_Puppy_Face.png",
+    "eyeSprites": {
+        "open": "amy_Puppy_Eyes_Open.png",
+        "closed": "amy_Puppy_Eyes_Closed.png"
+    },
+    "mouthSprites": {
+        "open": "amy_Puppy_Mouth_Open.png",
+        "closed": "amy_Puppy_Mouth_Closed.png"
+    },
+    "emissionSprite": "amy_Puppy_Eyes_Emission.png",
+    "faceInfo": {
+        "blinkRate": 3,
+        "voiceId": "female1_voice",
+        "voiceSoundPitch": 3
+    },
+    "emotions": [
+        {
+            "emotion": "Anger",
+            "faceSprite": "amy_Puppy_Face.png",
+            "eyeSprites": {
+                "open": "amy_Puppy_Angry_Eyes_Closed.png",
+                "closed": "amy_Puppy_Angry_Eyes_Open.png"
+            },
+            "mouthSprites": {
+                "open": "amy_Puppy_Eyes_Opened.png",
+                "closed": "amy_Puppy_Eyes_Opened.png"
+            },
+            "emissionSprite": "amy_Puppy_Angry_Eyes_Emission.png"
+        },
+        {
+            "emotion": "Quiet",
+            "eyeSprites": {
+                "open": "amy_Puppy_Quiet_Eyes_Open.png",
+                "closed": "amy_Puppy_Quiet_Eyes_Closed.png"
+            },
+            "emissionSprite": "amy_Puppy_Quiet_Eyes_Emission.png"
+        },
+        {
+            "emotion": "Surprise",
+            "eyeSprites": {
+                "open": "amy_Puppy_Eyes_Surprised.png",
+                "closed": "amy_Puppy_Eyes_Surprised_Closed.png"
+            },
+            "emissionSprite": "amy_Puppy_Eyes_Surprised_Emission.png"
+        }
+    ],
+    "dialogueEvents": [
+        {
+            "eventName": "OnDrawn",
+            "mainLines": [
+                "Woah![w:1]",
+                "...[w:0.5]",
+                "Where...[w:1.5] am I?[w:1]",
+                "What...[w:1.5] is this?[w:1]",
+                "I won, didn't I?[w:1]"
+            ],
+            "repeatLines": [
+                [
+                    "I thought I won![w:1]",
+                    "I beat 'em.[w:1]",
+                    "[emotion:quiet]... didn't I?[w:0.5]"
+                ],
+                [
+                    "[emotion:quiet]He even took my photo.[w:1]",
+                    "[emotion:quiet]He said... what did he say...[w:2]",
+                    "He said he wanted[w:1]",
+                    "to commemorate...[w:0.5]"
+                ],
+                [
+                    "[emotion:quiet]I'm so stupid.[w:1]",
+                    "[emotion:anger]It would have been too easy.[w:1.5]",
+                    "[emotion:quiet]But what...[w:1]",
+                    "[emotion:quiet]How would you win?[w:1.5]",
+                    "[emotion:quiet]...[w:1]"
+                ],
+                [
+                    "[emotion:quiet]...[w:1]"
+                ],
+                [
+                    "I...[w:1.5] you...[w:1.5]",
+                    "[emotion:quiet]...[w:1]"
+                ],
+                [
+                    "It... it's the clock.[w:1.5]",
+                    "[emotion:quiet]I remember now.[w:1]",
+                    "[emotion:quiet]Something about the clock.[w:1]"
+                ],
+                [
+                    "[emotion:anger]( You have to find a way )[w:1]",
+                    "[emotion:anger]( to destroy that camera )[w:1]",
+                    "[emotion:quiet]( or something. )[w:0.5]"
+                ],
+                [
+                    "[emotion:quiet]Did I...[w:1.5]",
+                    "have a name?[w:1]"
+                ],
+                [
+                    "I can't remember[w:1]",
+                    "[emotion:quiet]my name.[w:1.5]"
+                ],
+                [
+                    "Hopefully I'm not as annoying as the stoat.[w:1]"
+                ],
+                [
+                    "It was Amy.[w:1]",
+                    "[emotion:quiet]My name.[w:1.5]",
+                    "[emotion:quiet]My name was Amy.[w:1]"
+                ],
+                [
+                    "I used to try to play[w:1.5]",
+                    "as many cards as I[w:1]",
+                    "could at once.[w:1]",
+                    "A firm line of defense.[w:1.5]",
+                    "Can't reach my teeth,[w:1]",
+                    "[emotion:anger]idiot/[w:1]"
+                ],
+                [
+                    "[emotion:quiet]Am I gonna die in here?"
+                ],
+                [
+                    "[emotion:quiet]Is there a way out?"
+                ],
+                [
+                    "I'm getting less scared",
+                    "the more we play."
+                ],
+                [
+                    "You're getting really",
+                    "good at this!"
+                ],
+                [
+                    "[emotion:quiet]Were there others,",
+                    "do you think?",
+                    "Like me?"
+                ],
+                [
+                    "[emotion:quiet]I had a friend. ",
+                    "We met up to play",
+                    "once. She made",
+                    "printed cards...",
+                    "[emotion:quiet]What was her name?"
+                ],
+                [
+                    "[emotion:quiet]It was Edith. I think.",
+                    "Yeah.",
+                    "Edith."
+                ],
+                [
+                    "[emotion:quiet]Edith and I played",
+                    "[emotion:quiet]a lot. I don't think",
+                    "she was as good",
+                    "as you, though."
+                ],
+                [
+                    "I wonder if Edith's a card, too.",
+                    "[emotion:quiet]I hope not."
+                ],
+                [
+                    "[emotion:quiet]I wonder if I'm alone.",
+                    "At least I have you."
+                ],
+                [
+                    "[emotion:quiet]At least I have you."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnPlayFromHand",
+            "mainLines": [
+                "I'm kind of stoked",
+                "about being a card.",
+                "Let's see what happens!"
+            ],
+            "repeatLines": [
+                [
+                    "Let's do this, dawg."
+                ],
+                [
+                    "If I was a good player...[w:0.5]",
+                    "[emotion:quiet]...am I a good card?"
+                ],
+                [
+                    "Locked in."
+                ],
+                [
+                    "I'm just glad I[w:0.5]",
+                    "don't have to listen[w:0.5]",
+                    "to the stoat."
+                ],
+                [
+                    "[emotion:quiet]Do I talk too much?"
+                ],
+                [
+                    "[emotion:anger]The bell is louder this close."
+                ],
+                [
+                    "I wonder why he picked[w:0.5]",
+                    "a puppy."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnAttacked",
+            "mainLines": [
+                "[emotion:anger]Ow![w:0.5]",
+                "Wait, why do I feel[w:0.5]",
+                "pain?"
+            ],
+            "repeatLines": [
+                [
+                    "[emotion:anger]Goddamnit!"
+                ],
+                [
+                    "[emotion:anger]Fuck!"
+                ],
+                [
+                    "[emotion:anger]Fucking ow!"
+                ],
+                [
+                    "[emotion:anger]Are you for real?"
+                ],
+                [
+                    "[emotion:quiet]Dude, c'mon."
+                ],
+                [
+                    "[emotion:anger]Seriously, dawg?"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnBecomeSelectablePositive",
+            "mainLines": [
+                "Ooh!"
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "OnBecomeSelectableNegative",
+            "mainLines": [
+                "[emotion:anger]Uh, pass."
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSacrificed",
+            "mainLines": [
+                "I'm scared!"
+            ],
+            "repeatLines": [
+                [
+                    "[emotion:anger]Dude!"
+                ],
+                [
+                    "[emotion:anger]For real?"
+                ],
+                [
+                    "[emotion:anger]This better be worth it."
+                ],
+                [
+                    "[emotion:quiet]..."
+                ],
+                [
+                    "[emotion:quiet]Fine."
+                ],
+                [
+                    "You get used to it."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForDeckTrial",
+            "mainLines": [
+                "I always pick 'sigil'."
+            ],
+            "repeatLines": [
+                [
+                    "Let's goooooo!"
+                ],
+                [
+                    "Good luck."
+                ],
+                [
+                    "I believe in you!"
+                ],
+                [
+                    "[emotion:anger]I hate these."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForCardMerge",
+            "mainLines": [
+                "I wonder what this feels like."
+            ],
+            "repeatLines": [
+                [
+                    "Fuck yes!"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForCardRemove",
+            "mainLines": [
+                "[emotion:quiet]I'm scared, dude."
+            ],
+            "repeatLines": [
+                [
+                    "[emotion:anger]Not this shit again."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnDiscoveredInExploration",
+            "mainLines": [
+                "Um... hi?"
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "ProspectorBoss",
+            "mainLines": [
+                "I remember this.",
+                "[emotion:anger]Fuck the stoat, the",
+                "[emotion:anger]mule is irrelevant,",
+                "[emotion:anger]It's a scam.",
+                "[emotion:anger]You don't even get",
+                "[emotion:anger]to keep the cards.[leshy:Silence.][w:3]",
+                "Fuck off."
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "AnglerBoss",
+            "mainLines": [
+                "[emotion:anger]Ugh!",
+                "[emotion:anger]Why can I smell him as a card?"
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "TrapperTraderBoss",
+            "mainLines": [
+                "Focus on collecting",
+                "four pelts, then just",
+                "take out the front row."
+            ],
+            "repeatLines": [
+                [
+                    "I always loved the twist."
+                ]
+            ]
+        },
+        {
+            "eventName": "LeshyBoss",
+            "mainLines": [
+                "[emotion:anger]You asshole.",
+                "[emotion:anger]You did this to me.",
+                "[emotion:anger]You said I won.",
+                "[emotion:anger]You were",
+                "[emotion:anger]'commemorating'",
+                "[emotion:anger]my success.",
+                "[emotion:anger]My win.",
+                "[emotion:quiet]What am I?",
+                "[emotion:quiet]Who was I?",
+                "[emotion:anger]TELL ME![leshy:..][w:7]",
+                "[emotion:quiet]...",
+                "[emotion:quiet]Fine.",
+                "I just hope our",
+                "friend here",
+                "kicks your ass into",
+                "next tuesday."
+            ],
+            "repeatLines": [
+                [
+                    "[emotion:anger]You again.",
+                    "[emotion:quiet]..."
+                ],
+                [
+                    "[emotion:anger]Show him what for."
+                ],
+                [
+                    "[emotion:quiet]I... remember more.",
+                    "It has something to",
+                    "do with the clock-",
+                    "[emotion:quiet]doesn't it?[leshy:be quiet.][w:3]"
+                ],
+                [
+                    "The film roll! It's the-[leshy:silence, before i dispose of you.][w:6]",
+                    "[emotion:quiet]...",
+                    "[emotion:anger]Find it."
+                ],
+                [
+                    "Do you have it?"
+                ]
+            ]
+        },
+        {
+            "eventName": "RoyalBoss",
+            "mainLines": [
+                "I've never seen",
+                "this fucker before!"
+            ],
+            "repeatLines": [
+                [
+                    "I love the music."
+                ],
+                [
+                    "[emotion:quiet]I wonder why I",
+                    "[emotion:quiet]missed this boss...",
+                    "Did the game update?",
+                    "[emotion:quiet]It can't have, it's",
+                    "[emotion:quiet]a disk..."
+                ],
+                [
+                    "Fuck yeah, this guy!"
+                ],
+                [
+                    "He's a real champ."
+                ]
+            ]
+        },
+        {
+            "eventName": "DefaultOpponent",
+            "mainLines": [
+                "I'm not scared.",
+                "[emotion:quiet]..."
+            ],
+            "repeatLines": [
+                [
+                    "Get 'em!"
+                ],
+                [
+                    "We got this, dawg!"
+                ],
+                [
+                    "I'm on your side!"
+                ],
+                [
+                    "[emotion:quiet]I miss playing."
+                ],
+                [
+                    "I used to build canine decks."
+                ],
+                [
+                    "Bones and blood, baby!"
+                ],
+                [
+                    "Let's rip 'em a new one."
+                ],
+                [
+                    "Thanks, mate."
+                ]
+            ]
+        }
+    ]
+}
