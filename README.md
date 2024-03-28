@@ -1,5 +1,5 @@
-# Talking-Puppy
-A mod for Inscryption adding a talking card called "Puppy", with its own original lore and animated art. It is intended to partner with the Talking Doe mod myself and maebreak made. This is our first modding experience together and my first outside of javascript.
+# Talking-Winners
+A mod for Inscryption adding the talking cards Puppy and Doe based on original lore featuring new art and animations. Voice of Doe provided by [maebreak](https://twitch.tv/maebreak).
 # Dependencies
 This mod’s dependencies are BepInEx, the InscryptionAPI, and JSONCardLoader.
 # Installation
@@ -15,3 +15,4 @@ This mod’s dependencies are BepInEx, the InscryptionAPI, and JSONCardLoader.
 NOTE: I am unable to troubleshoot manual installation due to my personal computer's behaviour.
 # Changelog
 - **1.0.0** - Initial upload.
+- **2.0.0** - Doe is merged with Talking Puppy, name changed. All related files updated.
