@@ -11,6 +11,7 @@ This mod’s dependencies are BepInEx, the InscryptionAPI, and JSONCardLoader.
 3. Download and install the [JSONCardLoader mod](https://inscryption.thunderstore.io/package/MADH95Mods/JSONCardLoader/) following its manual installation guide. 
 4. Find the `BepInEx > plugins` folder.
 5. Place this mod in a new folder within the plugins folder.
-NOTE: I am unable to troubleshoot manual installation due to my computer issues.
+
+NOTE: I am unable to troubleshoot manual installation due to my personal computer's behaviour.
 # Changelog
 - **1.0.0** - Initial upload.
