@@ -11,8 +11,7 @@ This mod’s dependencies are BepInEx, the InscryptionAPI, and JSONCardLoader.
 3. Download and install the [JSONCardLoader mod](https://inscryption.thunderstore.io/package/MADH95Mods/JSONCardLoader/) following its manual installation guide. 
 4. Find the `BepInEx > plugins` folder.
 5. Place this mod in a new folder within the plugins folder.
-
-NOTE: I am unable to troubleshoot manual installation due to my personal computer's behaviour.
 # Changelog
 - **1.0.0** - Initial upload.
-- **2.0.0** - Doe is merged with Talking Puppy, name changed. All related files updated.
+- **2.0.0** - Talking Doe mod is merged with Talking Puppy, mod name changed. All related files updated.
+- **2.1.0** - Doe stats changed to 2P2H for balancing.
