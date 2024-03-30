@@ -1,0 +1,19 @@
+{
+  "name": "caseyontherocks_Poison_Dart_Frog",
+  "modPrefix": "caseyontherocks",
+  "displayedName": "Poison Dart Frog",
+  "description": "There is no amphibian tribe.",
+  "metaCategories": [ "Rare" ],
+  "cardComplexity": "Simple",
+  "temple": "Nature",
+  "baseAttack": 1,
+  "baseHealth": 2,
+  "bloodCost": 1,
+  "tribes": [ "Reptile" ],
+  "abilities": [ "Sharp", "Deathtouch" ],
+  "appearanceBehaviour": [ "RareCardBackground" ],
+  "specialAbilities": [ "TalkingCardChooser" ],
+  "flipPortraitForStrafe": false,
+  "tailName": "Tail_Wriggling",
+  "texture": "liz_PDF_Face.png"
+}

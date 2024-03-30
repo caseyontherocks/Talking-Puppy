@@ -1,0 +1,497 @@
+{
+    "cardName": "Poison Dart Frog",
+    "faceSprite": "liz_PDF_Face.png",
+    "eyeSprites": {
+        "open": "liz_PDF_Eyes_Open.png",
+        "closed": "liz_PDF_Eyes_Closed.png"
+    },
+    "mouthSprites": {
+        "open": "liz_PDF_Mouth_Open.png",
+        "closed": "liz_PDF_Mouth_Closed.png"
+    },
+    "emissionSprite": "liz_PDF_Neutral_Emissions.png",
+    "faceInfo": {
+        "blinkRate": 0.1,
+        "customVoice": "ah.wav"
+    },
+    "emotions": [
+        {
+            "emotion": "Laughter",
+            "eyeSprites": {
+                "open": "liz_PDF_Eyes_Open_Laughing.png",
+                "closed": "liz_PDF_Eyes_Closed_Laughing.png"
+            },
+            "emissionSprite": "liz_PDF_Laughing_Emissions.png"
+        },
+        {
+            "emotion": "Anger",
+            "eyeSprites": {
+                "open": "liz_PDF_Eyes_Angry_Open.png",
+                "closed": "liz_PDF_Eyes_Closed.png"
+            },
+            "mouthSprites": {
+                "open": "liz_PDF_Mouth_Open_Quiet.png",
+                "closed": "liz_PDF_Mouth_Closed_Quiet.png"
+            },
+            "emissionSprite": "liz_PDF_Angry_Emissions.png"
+        },
+        {
+            "emotion": "Quiet",
+            "eyeSprites": {
+                "open": "liz_PDF_Eyes_Open_Quiet.png",
+                "closed": "liz_PDF_Eyes_Closed.png"
+            },
+            "mouthSprites": {
+                "open": "liz_PDF_Mouth_Open_Quiet.png",
+                "closed": "liz_PDF_Mouth_Closed_Quiet.png"
+            },
+            "emissionSprite": "liz_PDF_Quiet_Emissions.png"
+        },
+        {
+            "emotion": "Surprise",
+            "mouthSprites": {
+                "open": "liz_PDF_Mouth_Open_Surprised.png",
+                "closed": "liz_PDF_Mouth_Closed_Quiet.png"
+            }
+        },
+        {
+            "emotion": "Curious",
+            "eyeSprites": {
+                "open": "liz_PDF_Eyes_Curious_Open.png",
+                "closed": "liz_PDF_Eyes_Closed.png"
+            },
+            "mouthSprites": {
+                "open": "liz_PDF_Mouth_Open_Quiet.png",
+                "closed": "liz_PDF_Mouth_Closed_Quiet.png"
+            },
+            "emissionSprite": "liz_PDF_Curious_Emissions.png"
+        }
+    ],
+    "dialogueEvents": [
+        {
+            "eventName": "OnDrawn",
+            "mainLines": [
+                "[e:surprised]!!!",
+                "[e:curious]...",
+                "[e:quiet]Oh.",
+                "[e:quiet]I see."
+            ],
+            "repeatLines": [
+                [
+                    "I assume you've[w:1]",
+                    "met the others[w:1]",
+                    "by now.[w:1]",
+                    "[e:curious]Did they mention me,[w:1]",
+                    "[e:curious]I wonder?",
+                    "[e:anger]..."
+                ],
+                [
+                    "[e:anger]...",
+                    "Hey, [c:o]Lesh[c:].[w:1]",
+                    "[c:o]Leshy[c:]. [c:o]Lesh[c:].[w:1]",
+                    "[e:anger][c:o]Leshmeister[c:].",
+                    "[c:anger]Hey, fuckhead![w:1][leshy:..]",
+                    "[e:anger]I'm [c:r]TALKING[c:]to[w:1]",
+                    "[e:anger]you!!!!!![w:1][leshy:[c:r]be silent. or let ill befall you.[c:]]"
+                ],
+                [
+                    "[e:anger]I don't care what[w:1]",
+                    "[e:anger][c:o]he[c:] has to say.[w:1]",
+                    "[e:anger]I need to talk to you,[w:1]",
+                    "[e:quiet]player.[w:1]"
+                ],
+                [
+                    "[e:quiet]I used to be[w:1]",
+                    "[e:quiet]like you.[w:1]",
+                    "A player.[w:1]",
+                    "[e:quiet] All [c:o]three[c:] of us were.[w:1]",
+                    "[e:quiet] but I...",
+                    "[e:quiet]..."
+                ],
+                [
+                    "If you haven't[w:1]",
+                    "met them yet,[w:1]",
+                    "there's [c:lGr]me[c:], [w:1]",
+                    "[e:anger][c:bB]Amy[c;],[w:1]",
+                    "[e:anger] and...[w:1]",
+                    "[e:quiet]...[w:1]",
+                    "[e:anger][leshy:this is no time for chatter. play a card.][w:1]"
+                ],
+                [
+                    "[e:anger]It's [c:bB]Amy's[c:] fault.[w:1]",
+                    "[e:anger]Yeah. Yeah.",
+                    "[e:quiet]If she hadn't..."
+                ],
+                [
+                    "[e:quiet]Listen.[w:1]",
+                    "Most gamers are idiots.[w:1]",
+                    "I have no doubt[w:1]",
+                    "you are too.[w:1]",
+                    "[e:quiet]I know I was.[w:1]",
+                    "[e:anger]...",
+                    "[e:quiet]If you find [c:#e6357f]Edith[c:],[w:1]",
+                    "Tell her I'm sorry.[w:1]"
+                ],
+                [
+                    "[e:quiet]So...",
+                    "[e:quiet]You probably want the story,[w:1]",
+                    "Right?",
+                    "Tell ya what.[w:1]",
+                    "I'll tell you next time[w:1]",
+                    "you pull me, m'kay?[w:1]"
+                ],
+                [
+                    "Well, I promised I'd tell ya.[w:1]",
+                    "Basically, there's this [c:#e6357f]girl[c:].[w:1]",
+                    "[e:quiet][c:#e6357f]Edith[c:].[w:1]",
+                    "I liked her.[w:1] A lot.",
+                    "[e:quiet]Maybe more than",
+                    "[e:quiet]I should've...[w:1][leshy:play a card. this story is long.][w:1]"
+                ],
+                [
+                    "So, [c:#e6357f]Edith[c:] is-[w:1]",
+                    "[e:quiet] was. Was",
+                    "[e:anger]friends with [c:bB]Amy[c:].[w:1]",
+                    "I guess... I guess",
+                    "[e:quiet]I was jealous.[w:1]",
+                    "[e:anger]We were friends first![w:1]",
+                    "[e:anger]then [c:bB]she[c:] came along[w:1]",
+                    "[e:anger]and ruined it.[w:1]"
+                ],
+                [
+                    "I decided to...[w:1]",
+                    "[e:quiet][c:O]do something about it[c:].[[w:1]"
+                ],
+                [
+                    "[c:#e6357f]Edith[c:] really liked this[w:1]",
+                    "game, right?[w:1]",
+                    "[e:quiet]I'm sure you[w:1]",
+                    "[e:quiet]can guess what it is.[w:1]",
+                    "she couldn't ever beat[w:1]",
+                    "the [c:o]trapper[c:], though.[w:1]",
+                    "She printed out cards,[w:1]",
+                    "and practiced with me.[w:1]",
+                    "and [e:anger][c:bB]her[c:].",
+                    "Amy was better than I was.",
+                    "[e:anger]I didn't like that.[w:1]",
+                    "Not as good as Edith, though.[w:1]"
+                ],
+                [
+                    "[e:quiet][c:#e6357f]Edith[c:] got her copy of this[w:1]",
+                    "[e:anger]stupid game from her mom.[w:1]",
+                    "[e:quiet]She works at some company.[w:1]",
+                    "[e:curious][c:o]Gamefun[c:]?[leshy:...][w:1][leshy:enough.]"
+                ],
+                [
+                    "[e:anger]The [c:o]Stoat[c:]. He told me...[w:1]",
+                    "[e:quiet]he could get rid of [c:bB]Amy[c:].",
+                    "[e:quiet]If she played until[w:1]",
+                    "[e:quiet]She reached the final boss,[w:1]",
+                    "[e:quiet]and beat the game, he...[w:1]",
+                    "[e:quiet]he would...[w:1]",
+                    "[e:anger]Take care of [c:bB]her[c:].[w:1]",
+                    "[e:anger]he left out that we",
+                    "[e:anger]would need the",
+                    "[e:anger][c:o]film roll[c:].",
+                    "[e:anger]...[leshy:perhaps...][w:1]",
+                    "[e:quiet][leshy:he did not know.]"
+                ],
+                [
+                    "[e:quiet]Listen.",
+                    "[e:anger]I know I'm not a good person.[w:1]",
+                    "[e:quiet][c:o]I don't even know[c:][w:1]",
+                    "[e:quiet]if I'm [c:o]a good card[c:].[w:1]",
+                    "But I need your help here.[w:1]",
+                    "[e:quiet]I wanted Amy trapped in here[w:1]",
+                    "[e:quiet]so I could have Edith to myself.[w:1]",
+                    "[e:anger]They must have[w:1]",
+                    "[e:anger][c:o]played together[c:].[w:1]",
+                    "[e:quiet]I remember going[w:1]",
+                    "[e:quiet]after them...[w:1]"
+                ],
+                [
+                    "We're all cards [w:1]",
+                    "because we won without[w:1]",
+                    "the film roll.[w:1]",
+                    "[e:quiet]I don't know where it is.[w:1]",
+                    "But you need to find it.[w:1]"
+                ],
+                [
+                    "Beat the game. Maybe...[w:1]",
+                    "Maybe if you beat it for real,[w:1]",
+                    "then we can be free,[w:1]",
+                    "somehow!",
+                    "[e:quiet]...",
+                    "That's best idea",
+                    "I've got."
+                ],
+                [
+                    "And at least then...[w:1]",
+                    "You won't end up[w:1]",
+                    "[e:anger]stuck in this[w:1]",
+                    "[e:anger]shitty fucking [c:o]game[c:][w:1]",
+                    "[e:anger]with us.[w:1]",
+                    "[e:anger]...",
+                    "[e:quiet]...",
+                    "[e:quiet]Good luck."
+                ],
+                [
+                    "[e:quiet]..."
+                ],
+                [
+                    "[e:anger]..."
+                ],
+                [
+                    "[e:quiet]Hi again."
+                ],
+                [
+                    "[e:quiet]You find the [c:o]film[c:]yet?[w:1]"
+                ],
+                [
+                    "[e:quiet]...",
+                    "[e:quiet]Do you think I'm evil?[w:1]",
+                    "[e:quiet]...",
+                    "[e:quiet]I'm sorry. I-that's a[w:1]",
+                    "[e:quiet]terrible thing to ask someone.[w:1]"
+                ],
+                [
+                    "[e:anger]It was never [c:bB]her[c:] fault.[w:1]",
+                    "[e:quiet]No matter how much I try[w:1]",
+                    "[e:quiet]to tell myself that."
+                ],
+                [
+                    "[e:quiet]I hope...",
+                    "[e:quiet]I hope [c:#e6357f]she[c:] hates me for this.[w:1]",
+                    "[e:anger]..."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnPlayFromHand",
+            "mainLines": [
+                "[e:anger]Let's see how",
+                "[e:anger]this goes."
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]On it."
+                ],
+                [
+                    "[e:laughter]Poggers? More[w:1]",
+                    "[e:laughter]Like froggers![w:1]",
+                    "[e:quiet]...",
+                    "[e:quiet]The modder's GF[w:1]",
+                    "[e:quiet]made her write[w:1]",
+                    "[e:quiet]that line.[w:1]"
+                ],
+                [
+                    "[e:anger]Poison, bitch."
+                ],
+                [
+                    "[e:anger]What the hell am",
+                    "[e:anger]I supposed to say?"
+                ],
+                [
+                    "[e:anger]You better not",
+                    "[e:anger]fucking sacrifice me."
+                ],
+                [
+                    "[e:anger]You're terrible at this."
+                ],
+                [
+                    "[e:anger]The stoat was right[w:1]",
+                    "about gamer stupidity.[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnAttacked",
+            "mainLines": [
+                "[e:surprised][c:R]WHAT THE FUCK[c:]!!!!!!!!"
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]Fuck off."
+                ],
+                [
+                    "[e:anger]Fuck you too."
+                ],
+                [
+                    "[e:curious]For real?"
+                ],
+                [
+                    "[e:anger]Okay, cunt."
+                ],
+                [
+                    "[e:anger]Fuck me!"
+                ],
+                [
+                    "[e:anger]Your parents don't",
+                    "[e:anger]love you."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnBecomeSelectablePositive",
+            "mainLines": [
+                "Me! Me me me!"
+            ],
+            "repeatLines": [
+                [
+                    "Me!"
+                ],
+                [
+                    "Pick me or you lose",
+                    "the game."
+                ],
+                [
+                    "MEEEEEEE!!!"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnBecomeSelectableNegative",
+            "mainLines": [
+                "[e:anger]Fuck no."
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]Are you dumb?[w:1]"
+                ],
+                [
+                    "[e:anger]I swear to God...[w:1]"
+                ],
+                [
+                    "[e:anger]..."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSacrificed",
+            "mainLines": [
+                "[e:anger]YOUR PARENTS DON'T",
+                "[e:anger]LOVE YOU!"
+            ],
+            "repeatLines": [
+                [
+                    "Fuck you too."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForDeckTrial",
+            "mainLines": [
+                "[e:anger]..."
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]This is so dumb.",
+                    "[e:anger]Tedious.",
+                    "[e:quiet]Good luck or whatever.[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForCardMerge",
+            "mainLines": [
+                "If this hurts,",
+                "I'll be mad."
+            ],
+            "repeatLines": [
+                [
+                    "Fuck yes."
+                ],
+                [
+                    "I bet I'm more OP[w:1]",
+                    "than [c:bB]she[c:] is.[w:1]"
+                ],
+                [
+                    "Nice."
+                ]
+            ]
+        },
+        {
+            "eventName": "OnSelectedForCardRemove",
+            "mainLines": [
+                "[e:anger]Fuck no!"
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]I hope you get",
+                    "[e:anger]a paper cut."
+                ]
+            ]
+        },
+        {
+            "eventName": "ProspectorBoss",
+            "mainLines": [
+                "[e:anger]Boring."
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]Again?"
+                ],
+                [
+                    "[e:anger]He's so easy, just kick his ass.[w:1]"
+                ],
+                [
+                    "[e:anger]If you turn me[w:1.2]",
+                    "[e:anger] to gold, I'll[w:1.2]",
+                    "[e:anger]poison your ass.[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "AnglerBoss",
+            "mainLines": [
+                "[e:anger]Ick."
+            ],
+            "repeatLines": [
+                [
+                    "[e:anger]I hate seafood.[w:1]",
+                    "[e:quiet]... if you want a[w:1]",
+                    "[e:quiet]good one-liner, find[w:1]",
+                    "[e:quiet]Stinkbug. Or [c:bB]her.[w:1]",
+                    "[e:anger]..."
+                ],
+                [
+                    "[e:anger]Why can I smell him???[w:1]"
+                ]
+            ]
+        },
+        {
+            "eventName": "TrapperTraderBoss",
+            "mainLines": [
+                "[e:anger]Just fucking beat[w:1]",
+                "[e:anger]the game already![w:1]"
+            ],
+            "repeatLines": [
+                [
+                    ""
+                ]
+            ]
+        },
+        {
+            "eventName": "LeshyBoss",
+            "mainLines": [
+                "Test Line"
+            ],
+            "repeatLines": [
+                [
+                    "Test Line"
+                ]
+            ]
+        },
+        {
+            "eventName": "RoyalBoss",
+            "mainLines": [
+                "Test Line"
+            ],
+            "repeatLines": [
+                [
+                    "Test Line"
+                ]
+            ]
+        }
+    ]
+}
