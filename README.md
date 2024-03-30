@@ -19,3 +19,5 @@ NOTE: I am unable to troubleshoot manual installation due to my personal compute
 - **2.1.0** - Doe stats changed to 2P2H for balancing.
 - **2.2.0** - Fox art added to files, not currently useable. The line that Doe said that froze your enter game was removed. If you were curious, it was 'Have you seen any other talking cards?' Also, no. No idea why it did that.
 - **3.0.0** - Poison Dart Frog added!
+- **3.1.0** - Poison Dart Frog now has face and can talk.
+- **3.2.0** - Fixed 'surprised' glitch, edited wait length for Puppy and Frog.
