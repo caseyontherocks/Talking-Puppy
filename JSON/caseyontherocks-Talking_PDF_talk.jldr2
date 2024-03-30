@@ -1,5 +1,5 @@
 {
-    "cardName": "Poison Dart Frog",
+    "cardName": "caseyontherocks_Poison_Dart_Frog",
     "faceSprite": "liz_PDF_Face.png",
     "eyeSprites": {
         "open": "liz_PDF_Eyes_Open.png",
@@ -11,7 +11,7 @@
     },
     "emissionSprite": "liz_PDF_Neutral_Emissions.png",
     "faceInfo": {
-        "blinkRate": 0.1,
+        "blinkRate": 5,
         "customVoice": "ah.wav"
     },
     "emotions": [
@@ -20,6 +20,10 @@
             "eyeSprites": {
                 "open": "liz_PDF_Eyes_Open_Laughing.png",
                 "closed": "liz_PDF_Eyes_Closed_Laughing.png"
+            },
+            "mouthSprites": {
+                "open": "liz_PDF_Mouth_Open_Quiet.png",
+                "closed": "liz_PDF_Mouth_Closed_Quiet.png"
             },
             "emissionSprite": "liz_PDF_Laughing_Emissions.png"
         },
@@ -49,6 +53,9 @@
         },
         {
             "emotion": "Surprise",
+            "eyeSprites": {
+                "open": "liz_PDF_Eyes_Open.png",
+                "closed": "liz_PDF_Eyes_Closed.png"
             "mouthSprites": {
                 "open": "liz_PDF_Mouth_Open_Surprised.png",
                 "closed": "liz_PDF_Mouth_Closed_Quiet.png"
@@ -71,7 +78,7 @@
         {
             "eventName": "OnDrawn",
             "mainLines": [
-                "[e:surprised]!!!",
+                "[e:surprise]Wh-",
                 "[e:curious]...",
                 "[e:quiet]Oh.",
                 "[e:quiet]I see."
@@ -307,7 +314,7 @@
         {
             "eventName": "OnAttacked",
             "mainLines": [
-                "[e:surprised][c:R]WHAT THE FUCK[c:]!!!!!!!!"
+                "[e:surprise][c:R]WHAT THE FUCK[c:]!!!!!!!!"
             ],
             "repeatLines": [
                 [
@@ -341,8 +348,8 @@
                     "Me!"
                 ],
                 [
-                    "Pick me or you lose",
-                    "the game."
+                    "Pick me or you lose[w:1]",
+                    "the game.[w:1]"
                 ],
                 [
                     "MEEEEEEE!!!"
@@ -494,4 +501,5 @@
             ]
         }
     ]
+}
 }
