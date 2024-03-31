@@ -23,3 +23,4 @@ NOTE: I am unable to troubleshoot manual installation due to my personal compute
 - **3.1.0** - Poison Dart Frog now has face and can talk.
 - **3.2.0** - Fixed 'surprised' glitch where no text would appear and game would freeze, edited wait length for Puppy and Frog.
 - **3.3.0** - Fixed 'surprised' glitch where no facial expression would appear. Added Act 1 Colored Portraits Dependency.
+- **3.3.1** - Minor dialogue fixes.
