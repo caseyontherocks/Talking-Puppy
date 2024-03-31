@@ -42,7 +42,7 @@
         {
             "emotion": "Quiet",
             "eyeSprites": {
-                "open": "liz_PDF_Eyes_Open_Quiet.png",
+                "open": "liz_PDF_Eyes_Quiet_Open.png",
                 "closed": "liz_PDF_Eyes_Closed.png"
             },
             "mouthSprites": {
@@ -79,10 +79,10 @@
         {
             "eventName": "OnDrawn",
             "mainLines": [
-                "[e:surprise]Wh-",
+                "[e:surprise]Wh-[w:1.3]",
                 "[e:curious]...",
-                "[e:quiet]Oh.",
-                "[e:quiet]I see."
+                "[e:quiet]Oh.[w:1]",
+                "[e:quiet]I see.[w:1]"
             ],
             "repeatLines": [
                 [
@@ -98,9 +98,9 @@
                     "Hey, [c:o]Lesh[c:].[w:1]",
                     "[c:o]Leshy[c:]. [c:o]Lesh[c:].[w:1]",
                     "[e:anger][c:o]Leshmeister[c:].",
-                    "[c:anger]Hey, fuckhead![w:1][leshy:..]",
-                    "[e:anger]I'm [c:r]TALKING[c:]to[w:1]",
-                    "[e:anger]you!!!!!![w:1][leshy:[c:r]be silent. or let ill befall you.[c:]]"
+                    "[c:anger]Hey, fuckhead![w:1][leshy:...]",
+                    "[e:anger]I'm [c:r]TALKING[c:] to[w:1]",
+                    "[e:anger]you!!!!!![w:1][leshy:be silent. or let ill befall you.]"
                 ],
                 [
                     "[e:anger]I don't care what[w:1]",
